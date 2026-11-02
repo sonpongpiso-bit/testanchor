@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "anchormacro",
+  "version": "${version}",
+  "name": "Anchor Macro",
+  "description": "A client-side respawn-anchor sequence macro using normal Minecraft interactions.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.anchor.macro.AnchorMacroClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.5",
+    "minecraft": "26.1.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
